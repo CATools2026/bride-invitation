@@ -1,0 +1,125 @@
+@font-face{font-family:'Wedding Script';src:url('assets/fonts/wedding-script.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Wedding Serif';src:url('assets/fonts/wedding-serif.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+:root{--paper:#fbf2ef;--paper-light:#fff8f4;--ink:#51363d;--wine:#743d4c;--wine-dark:#743d4c;--green:#743d4c;--muted:#765b61;--line:#ead5d8;--serif:'Wedding Serif',Georgia,serif;--script:'Wedding Script','Palatino Linotype',Georgia,serif}
+body{background:var(--paper)}
+:focus-visible{outline-color:#995e57}
+.site-header{height:76px;max-width:none;padding-inline:max(40px,calc((100vw - 1160px)/2));background:var(--paper-light)}
+#brand-monogram{font-family:var(--serif);font-size:31px;letter-spacing:.12em;font-weight:400}
+#brand-monogram i{font-family:var(--serif);font-style:normal;font-size:.68em;margin-inline:4px;letter-spacing:0}
+.brand-caption{font-family:var(--serif);font-size:11px;letter-spacing:.2em}
+nav{font-family:var(--serif);font-size:12px;text-transform:uppercase;letter-spacing:.18em;gap:30px}
+.eyebrow{font-family:var(--serif);font-size:12px;letter-spacing:.23em;font-weight:400;color:var(--muted)}
+.invitation-section{position:relative;border:0;background:#f6e7e4 url('assets/blush-silk.webp') center/cover no-repeat}
+.invitation-inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:45px;max-width:1100px;align-items:center;padding-block:35px 15px;min-height:650px;text-align:center}
+.hero-intro .eyebrow{margin-bottom:24px}
+.invitation-title{font-family:var(--serif);font-size:clamp(59px,5.6vw,80px);font-weight:400;line-height:1;letter-spacing:.02em;color:var(--green);margin:0;overflow-wrap:anywhere}
+.invitation-title>span{display:block;text-transform:uppercase}
+.invitation-title em{display:block;font-family:var(--script);font-style:normal;font-size:.6em;line-height:1.15;color:var(--gold-dark);margin:3px 0 10px;letter-spacing:0}
+.hero-invitation-copy{font-family:var(--serif);font-size:14px;line-height:1.7;letter-spacing:.18em;text-transform:uppercase;margin:28px 0 18px;color:#78515a}
+.hero-ornament{display:block;width:120px;margin:0 auto 23px;font-size:15px;line-height:1;color:#b7828e;position:relative}
+.hero-ornament::before,.hero-ornament::after{content:'';position:absolute;top:50%;height:1px;width:44px;background:#cca1a7}
+.hero-ornament::before{left:0}.hero-ornament::after{right:0}
+.button{border-radius:100px}
+.hero-invitation-button{gap:12px;font-family:var(--serif);letter-spacing:.15em;text-transform:uppercase;font-size:12px;min-width:205px;background:#9a5c6b;box-shadow:0 8px 25px #78465026}
+.hero-invitation-button svg{width:18px;height:18px}
+.hero-scroll{display:flex;flex-direction:column;align-items:center;gap:2px;margin-top:24px;font-family:var(--serif);font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted)}
+.hero-scroll span{font-size:23px;line-height:1}
+.celebration-intro{padding:5px 20px 46px;text-align:center;color:var(--green)}
+.celebration-intro>span{font-family:var(--script);font-size:36px;line-height:1.15}
+.celebration-intro>p{font-family:var(--serif);font-size:16px;letter-spacing:.2em;margin:9px 0 0}
+h2{font-family:var(--serif);font-size:clamp(36px,3.5vw,48px);letter-spacing:0}
+h2 em{font-family:var(--script);font-style:normal;font-size:1.12em;font-weight:400}
+.family-section{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:90px;align-items:center;padding-block:95px}
+.invitation-letter{background:#fff9f4;border:1px solid #ddbdc4;outline:1px solid #ddbdc480;outline-offset:6px;padding:35px 36px 20px;text-align:center}
+.letter-date{font-family:var(--serif);color:var(--gold-dark);border-bottom:1px solid var(--line);padding-bottom:18px;margin:0 0 26px;font-size:17px}
+.letter-date span{display:block}
+.letter-date span+span{margin-top:5px;color:var(--muted);font-family:var(--sans);font-size:13px}
+.parents-lead{font-size:26px}
+.invitation-letter .letter-couple{flex-direction:column;gap:7px;font-size:29px}
+.letter-closing{font-size:20px;margin-top:27px}
+.family-flourish{display:block;font-family:var(--serif);font-size:33px;color:var(--gold-dark);line-height:1.2;margin-top:22px}
+.date-section{background:#965967;padding-block:52px}
+.date-section .eyebrow{color:#fff7f2}
+.date-feature span,.countdown span,.countdown p{color:#fff7f2}
+.date-feature p{letter-spacing:.015em}
+.button-light{border-color:#e8bfc6}
+.agenda-section,.venue-section{gap:90px;padding-block:95px}
+.venue-card{background:var(--paper-light);box-shadow:0 8px 35px #8454680a}
+.album-section{background:#f4e4e7;border-color:var(--line);padding-block:85px}
+.album-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.photo-card{min-width:0}
+.photo-button{border-radius:2px;overflow:hidden}
+.photo-button img{transition:transform .45s}
+.photo-button:hover img{transform:scale(1.025)}
+.album-dialog{background:#34282d}
+.album-dialog::backdrop{background:#281a23e6}
+.viewer-nav{background:#543640ba}
+.viewer-nav:hover{background:#743d4c}
+.closing-section{background:#f6e7e4 url('assets/blush-silk.webp') center/cover no-repeat;padding-block:80px}
+.closing-section .closing-date{font-family:var(--serif);font-size:36px!important;line-height:1.2;letter-spacing:.12em;color:var(--green)!important;margin:22px 0 35px!important}
+.closing-section .closing-names{font-family:var(--script);font-size:49px;line-height:1.35}
+.closing-names i{font-style:normal;color:var(--gold-dark)}
+@media(max-width:1000px){
+ .site-header{padding-inline:32px}
+ .invitation-inner{gap:22px;min-height:560px}
+ .invitation-title{font-size:clamp(48px,6.4vw,65px)}
+ .family-section,.agenda-section,.venue-section{gap:45px}
+ .invitation-letter{padding-inline:25px}
+}
+@media(max-width:720px){
+ .site-header{min-height:85px;height:auto;padding:18px 20px 15px;gap:13px}
+ .brand-caption{font-size:10px}
+ nav{gap:10px;letter-spacing:.08em;font-size:11px}
+ nav a{min-height:30px}
+ .invitation-inner{display:flex;flex-direction:column;gap:20px;min-height:0;padding-block:38px 5px}
+ .hero-intro{width:100%}
+ .hero-intro .eyebrow{font-size:11px;letter-spacing:.12em;margin-bottom:22px}
+ .invitation-title{font-size:clamp(48px,13vw,66px)}
+ .invitation-title em{margin:2px 0 7px}
+ .hero-invitation-copy{font-size:12px;margin:22px 0 17px}
+ .hero-scroll{margin-top:18px}
+ .celebration-intro{padding-bottom:35px}
+ .celebration-intro>span{font-size:31px}
+ .celebration-intro>p{font-size:13px}
+ .family-section{grid-template-columns:minmax(0,1fr);gap:36px;padding-block:55px}
+ .invitation-letter{padding:27px 21px 18px;outline-offset:4px}
+ .invitation-letter .letter-couple{font-size:24px}
+ .parents-lead{font-size:24px}
+ h2{font-size:36px}
+ .agenda-section,.venue-section{padding-block:55px;gap:34px}
+ .date-section{padding-block:38px}
+ .date-feature p{font-size:27px}
+ .album-section{padding-block:55px}
+ .album-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+ .photo-card:first-child{grid-column:1/-1}
+ .photo-card:first-child .photo-button{aspect-ratio:3/2}
+ .closing-section{padding-block:60px}
+ .closing-section .closing-date{font-size:29px!important;margin-bottom:27px!important}
+ .closing-section .closing-names{font-size:44px}
+}
+@media print{.invitation-inner{min-height:0}.hero-invitation-button,.hero-scroll,.celebration-intro{display:none}.family-section{padding-block:35px}.invitation-section,.closing-section{background:white}}
+
+/* Dusty rose and pink rose-gold palette from the supplied swatches. */
+.welcome-background::after{content:'';position:absolute;inset:0;background:#efc9c31f}
+.invitation-section,.closing-section{background-image:linear-gradient(#efc9c31f,#efc9c31f),url('assets/blush-silk.webp')}
+
+/* Traditional couple on the revealed invitation page. */
+.traditional-couple-art{width:min(100%,450px);margin-inline:auto;display:flex;flex-direction:column;align-items:center;gap:7px}
+.traditional-couple-art img{display:block;width:100%;height:590px;object-fit:contain;object-position:center bottom}
+.traditional-couple-date{font-family:var(--serif);font-size:17px;line-height:1.5;letter-spacing:.2em;color:#743d4c;margin:0 0 15px;padding:7px 24px;border:1px solid #d6a3ae;border-radius:100px;background:#fff4f3cc}
+.welcome-kicker,.opening-label{color:#5f3441}
+.hero-intro .eyebrow,.hero-invitation-copy,.hero-scroll,.celebration-intro{color:#693e4b}
+@media(max-width:1000px){.traditional-couple-art{max-width:380px}.traditional-couple-art img{height:520px}}
+@media(max-width:720px){.traditional-couple-art{width:min(330px,94%)}.traditional-couple-art img{height:auto;max-height:500px}.traditional-couple-date{font-size:15px;margin-bottom:8px}}
+@media print{.traditional-couple-art img{height:360px}.invitation-section,.closing-section{background-image:none}}
+
+/* Direct guest enquiries through Janith’s WhatsApp contact. */
+.contact-link { padding:14px 22px; border:1px solid #c28e99; border-radius:3px; background:#fff7f2e6; font-size:16px; line-height:1.5; }
+.contact-link:hover { background:#f6e2e5; }
+
+.parents-and { display:inline-block; font-size:.75em; line-height:1; margin-block:3px; }
+.contact-link { display:inline-flex; align-items:center; justify-content:center; gap:14px; }
+.contact-whatsapp-icon { width:28px; height:28px; flex-shrink:0; }
+.contact-copy { display:flex; flex-direction:column; gap:3px; text-align:left; }
+.contact-label { font-size:14px; }
+#contact-name { font-size:17px; }

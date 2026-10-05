@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#b87d87">
+  <meta name="description" content="With love, the bride’s family invites you to a wedding celebration. Discover the wedding date, venue details, and pre-shoot album.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Janith & Kaveesha · Wedding Invitation">
+  <meta property="og:description" content="Friday, 20 November 2026 · Nilwala Grand Banquet, Katupotha · With love from the bride’s family">
+  <title>Janith & Kaveesha · Wedding Invitation</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%238a4e5d'/%3E%3Cpath d='M20 30C7 22 7 13 13 11c3-1 6 1 7 4 1-3 4-5 7-4 6 2 6 11-7 19' fill='%23f5efe3'/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="opening.css">
+  <link rel="stylesheet" href="sage.css">
+  <script src="wedding-core.js" defer></script>
+  <script src="invitation.js" defer></script>
+  <script src="album/photos.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="opening.js" defer></script>
+  <link rel="stylesheet" href="card-theme.css">
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="ribbon-crimson" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0 .03 .14 .45 .95"/><feFuncG type="table" tableValues="0 0 .002 .01 .08"/><feFuncB type="table" tableValues="0 .006 .02 .05 .18"/></feComponentTransfer></filter></defs></svg>
+  <a class="skip-link" href="#main">Skip to invitation</a>
+  <div class="draft-banner" id="draft-banner" hidden>Bride invitation draft <span>Friday, 20 November 2026 · Poruwa ceremony · 9:51 AM</span></div>
+  <header class="site-header" id="invitation-header">
+    <a class="brand" href="#main" aria-label="Back to invitation"><span id="brand-monogram">J <i>&</i> K</span><span class="brand-caption">OUR WEDDING</span></a>
+    <nav id="invitation-nav" aria-label="Invitation sections" hidden>
+      <a href="#invitation">Invitation</a><a href="#venue">Venue</a><a href="#album">Our album</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="welcome-section" id="welcome" aria-labelledby="welcome-heading">
+      <picture class="welcome-background" aria-hidden="true">
+        <img src="assets/blush-silk.webp" alt="" width="1536" height="1024" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="welcome-inner">
+          <div class="welcome-intro"><p class="welcome-kicker">THE WEDDING OF</p><h1 id="welcome-heading"><span data-field="groomShort">Janith</span> <em>&</em> <span data-field="brideShort">Kaveesha</span></h1></div>
+          <div class="envelope-scene">
+            <button class="envelope-trigger" id="envelope-trigger" type="button" aria-label="Untie the ribbon to open Janith and Kaveesha’s wedding invitation" aria-controls="invitation-content" aria-expanded="false">
+              <span class="envelope-back" aria-hidden="true"></span>
+              <span class="envelope-letter" aria-hidden="true"><img class="letter-rose letter-rose-tl" src="assets/rose-vine.webp" alt="" width="512" height="768"><img class="letter-rose letter-rose-tr" src="assets/rose-vine.webp" alt="" width="512" height="768"><img class="letter-rose letter-rose-bl" src="assets/rose-vine.webp" alt="" width="512" height="768"><img class="letter-rose letter-rose-br" src="assets/rose-vine.webp" alt="" width="512" height="768"><span class="letter-kicker">WITH LOVE FROM THE BRIDE’S FAMILY</span><span class="envelope-parent-names" id="envelope-groom-parents">W V Niranjan Puspalal Weerasingha & Udeni Champika Arambage</span><span class="envelope-letter-couple"><span data-field="brideShort">Kaveesha</span> <i>&</i> <span data-field="groomShort">Janith</span></span><span class="envelope-letter-date"><span id="opening-date">Friday, 20 November 2026</span><span id="opening-time">Poruwa ceremony · 9:51 AM</span></span><span class="letter-last-line">Request the pleasure of your company.</span></span>
+              <span class="gatefold-panel gatefold-panel-left" aria-hidden="true"><img src="assets/rose-gatefold.webp" alt="" width="1086" height="1448" decoding="async"></span>
+              <span class="gatefold-panel gatefold-panel-right" aria-hidden="true"><img src="assets/rose-gatefold.webp" alt="" width="1086" height="1448" decoding="async"></span>
+              <span class="ribbon-animation" aria-hidden="true">
+                <span class="ribbon-pose ribbon-pose-first" style="--pose:0;--pose-x:0%;--pose-y:0%"></span>
+                <span class="ribbon-pose" style="--pose:1;--pose-x:33.333333%;--pose-y:0%"></span>
+              </span>
+            </button>
+          </div>
+          <p class="opening-label" id="opening-label">Tap the ribbon to open</p>
+          <button class="direct-opening visually-hidden focusable" id="skip-opening" type="button">View invitation directly</button>
+          <p class="visually-hidden" id="opening-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+    <div id="invitation-content">
+    <section class="invitation-section" id="invitation" aria-labelledby="invite-heading">
+      <div class="content-width invitation-inner">
+        <div class="section-intro hero-intro"><p class="eyebrow">WITH LOVE FROM THE BRIDE’S FAMILY</p><h1 class="invitation-title" id="invite-heading"><span data-field="brideShort">Kaveesha</span> <em>and</em> <span data-field="groomShort">Janith</span></h1><p class="hero-invitation-copy">Invite you to celebrate<br>their wedding</p><span class="hero-ornament" aria-hidden="true">◇</span><a class="button button-primary hero-invitation-button" href="#family">You’re invited <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20C2 14 3 5 8 5c2 0 3 1 4 3 1-2 2-3 4-3 5 0 6 9-4 15Z"/></svg></a><a class="hero-scroll" href="#family">Scroll <span aria-hidden="true">⌄</span></a></div>
+        <div class="traditional-couple-art"><img src="assets/traditional-couple.webp" alt="Traditional Sri Lankan wedding couple with Nilame groom and bride in authentic ceremonial osariya" width="900" height="1350" decoding="async"><p class="traditional-couple-date" id="stationery-date">Friday, 20 November 2026</p></div>
+      </div>
+      <div class="celebration-intro"><span>explore</span><p>OUR CELEBRATION</p></div>
+    </section>
+
+    <section class="family-section content-width" id="family" aria-labelledby="family-heading">
+        <div class="section-intro"><p class="eyebrow">A LOVING INVITATION</p><h2 id="family-heading">From our <em>family.</em></h2><p class="section-description">With joy in our hearts, we invite you to share our special day.</p></div>
+        <div class="invitation-letter">
+          <p class="letter-date"><span id="hero-date">Friday, 20 November 2026</span><span id="hero-time">Poruwa ceremony · 9:51 AM</span></p>
+          <p class="parents-lead" id="groom-parents">W V Niranjan Puspalal Weerasingha & Udeni Champika Arambage</p>
+          <p class="letter-body">joyfully invite you to celebrate the marriage of their beloved daughter</p>
+          <p class="letter-couple"><span data-field="bride">W V Kaveesha Weerasinghe</span><span class="with-word">with</span><span data-field="groom">R M Janith Chathuranga Rathnayaka</span></p>
+          <div id="bride-family" hidden><p class="letter-body">beloved daughter of</p><p class="bride-parents" id="bride-parents"></p></div>
+          <p class="letter-closing" data-field="closing">Your presence will make our celebration even more special.</p>
+          <span class="family-flourish" aria-hidden="true">❦</span>
+        </div>
+    </section>
+
+    <section class="wedding-schedule" aria-labelledby="schedule-heading"><p class="eyebrow">OUR WEDDING DAY</p><h2 id="schedule-heading">The <em>ceremony.</em></h2><div class="schedule-items"><div class="schedule-item"><strong>9:51 AM</strong><p>Poruwa ceremony</p></div><div class="schedule-item"><strong>3:43 PM</strong><p>Departure</p></div></div></section>
+    <section class="date-section" aria-labelledby="date-heading">
+      <div class="content-width date-inner"><div><p class="eyebrow">WE’RE GETTING MARRIED</p><h2 id="date-heading">Save our <em>date.</em></h2></div><div class="date-feature"><p id="display-date">Friday, 20 November 2026</p><span id="display-time">Poruwa ceremony · 9:51 AM</span></div><button class="button button-light" id="calendar-button" type="button" hidden>Add to calendar</button></div>
+      <div class="content-width countdown" id="countdown" hidden aria-label="Time until the wedding"><span><strong id="count-days">0</strong> days</span><span><strong id="count-hours">0</strong> hours</span><span><strong id="count-minutes">0</strong> minutes</span><p id="countdown-message">Until we celebrate together.</p></div>
+    </section>
+
+    <section class="venue-section content-width" id="venue" aria-labelledby="venue-heading">
+      <div class="section-intro"><p class="eyebrow">HOW TO FIND US</p><h2 id="venue-heading">The <em>Location</em></h2><p class="section-description">We look forward to welcoming you.</p></div>
+      <div class="venue-card"><div class="venue-topline"><span class="eyebrow">THE VENUE</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3 id="venue-name">Nilwala Grand Banquet</h3><p class="venue-hall" id="venue-hall" hidden></p><p id="venue-address">Katupotha</p><p class="venue-note" id="venue-note" hidden></p><div class="venue-actions"><a class="button button-primary" id="directions-button" href="#venue" target="_blank" rel="noopener noreferrer" hidden>Open Google Maps</a><a class="button button-outline" id="share-location-button" href="#venue" target="_blank" rel="noopener noreferrer" hidden>Share location</a><span class="venue-pending" id="venue-pending">Location to be confirmed</span></div><div class="map-shell"><iframe id="venue-map" title="Reception hall location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen hidden></iframe><div class="map-pending" id="map-pending"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="2.5"/></svg><p>The venue map will appear here<br>once the location is confirmed.</p></div></div></div>
+    </section>
+
+    <section class="album-section" id="album" aria-labelledby="album-heading">
+      <div class="content-width">
+        <div class="album-heading"><div class="section-intro"><p class="eyebrow">OUR PRECIOUS MOMENTS</p><h2 id="album-heading">Photo <em>Gallery</em></h2><p class="section-description">A glimpse into our story, before the big day.</p></div><span class="album-count" id="album-count" hidden></span></div>
+        <div class="album-empty" id="album-empty"><span class="empty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6l2-3h4l2 3h4v15H4V6z"/><circle cx="12" cy="13" r="4"/></svg></span><p class="empty-title">A few moments before forever.</p><p>Our pre-shoot photographs will be here soon.</p></div>
+        <div class="album-grid" id="album-grid" hidden></div>
+        <p class="album-hint" id="album-hint" hidden>Tap a photograph to view the album.</p>
+      </div>
+    </section>
+
+    <section class="closing-section"><p class="eyebrow">SAVE THE DATE</p><p class="closing-date" id="closing-date">Friday, 20 November 2026</p><h2>We can’t wait to<br>celebrate with <em>you.</em></h2><p class="closing-names"><span data-field="brideShort">Kaveesha</span> <i>&</i> <span data-field="groomShort">Janith</span></p><a hidden class="contact-link" id="contact-link" href="#" target="_blank" rel="noopener noreferrer"><img class="contact-whatsapp-icon" src="assets/whatsapp.svg" alt="WhatsApp" width="28" height="28"><span class="contact-copy"><span id="contact-name">Kaveesha Weerasinghe</span></span></a></section>
+    </div>
+  </main>
+  <audio id="wedding-music" src="assets/wedding-music.mp3" preload="none" loop></audio>
+  <button class="music-toggle" id="music-toggle" type="button" aria-label="Mute wedding music" title="Mute wedding music" aria-pressed="false" hidden><svg class="music-speaker music-speaker-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></svg><svg class="music-speaker music-speaker-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path d="m16 9 6 6m0-6-6 6"/></svg></button>
+  <footer id="invitation-footer"><span>Made with love, for the people we love.</span><div class="footer-actions"><button class="direct-opening" id="replay-opening" type="button" hidden>Replay the envelope</button><a href="#main">Back to invitation</a></div></footer>
+
+  <dialog class="album-dialog" id="album-dialog" aria-labelledby="viewer-title">
+    <div class="viewer-shell"><div class="viewer-bar"><div><h2 id="viewer-title">Our pre-shoot album</h2><p id="viewer-counter" aria-live="polite"></p></div><button class="viewer-close" id="viewer-close" type="button" aria-label="Close album"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M6 18L18 6"/></svg></button></div>
+    <div class="viewer-stage" id="viewer-stage"><img id="viewer-image" alt="" hidden><p id="viewer-loading">Opening photograph…</p><button class="viewer-nav viewer-prev" id="viewer-prev" type="button" aria-label="Previous photograph"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="viewer-nav viewer-next" id="viewer-next" type="button" aria-label="Next photograph"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div><p class="viewer-caption" id="viewer-caption"></p><p class="viewer-help">Swipe or use the keyboard arrow keys to browse.</p></div>
+  </dialog>
+  <noscript><p class="noscript-note">Enable JavaScript to load personalised wedding details and view the pre-shoot album.</p></noscript>
+</body>
+</html>

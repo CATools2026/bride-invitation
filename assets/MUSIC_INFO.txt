@@ -1,0 +1,5 @@
+Wedding invitation instrumental
+Generated: 4 October 2026
+Model: ElevenLabs Music v2 (via Picsart)
+Duration: 60 seconds, instrumental
+Prompt: A gentle romantic instrumental for an elegant Sri Lankan wedding invitation. Warm felt piano playing an original lyrical melody, delicate harp arpeggios and soft sustained strings. Calm and welcoming, intimate and joyful, 72 BPM, flowing 6/8, graceful phrasing, clean studio sound, quiet dynamics throughout. No vocals, no speech, no drums, no dramatic build or sudden loud accents. Soft opening and a gentle ending suitable for background listening while guests read the invitation.

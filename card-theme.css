@@ -1,0 +1,12 @@
+.envelope-letter .letter-rose{width:42%;height:42%;aspect-ratio:auto;object-fit:fill;opacity:.85}.envelope-letter .letter-rose-tl,.envelope-letter .letter-rose-tr{top:6px}.envelope-letter .letter-rose-bl,.envelope-letter .letter-rose-br{bottom:6px}.envelope-parent-names{max-width:88%;font-size:clamp(13px,2.3vw,18px);line-height:1.4}.wedding-schedule{padding:30px 20px 55px;text-align:center}.schedule-items{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}.schedule-item{padding:20px 30px;border:1px solid var(--line);background:var(--paper-light)}.schedule-item strong{display:block;font-family:var(--serif);font-size:27px;color:var(--green)}.schedule-item p{margin:8px 0 0}@media(max-width:720px){.envelope-letter{gap:8px;padding-inline:24px}.envelope-parent-names{font-size:13px}.schedule-item{width:100%;max-width:320px}}
+
+/* Clear classic lettering and a balanced ampersand in the closing signature. */
+.closing-section .closing-names,.closing-section .closing-names span,.closing-section .closing-names i{font-family:var(--serif);font-style:normal;font-weight:400;color:var(--green);letter-spacing:.015em}
+.closing-section .closing-names{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:.3em;line-height:1.35}
+.closing-section .closing-names i{font-size:.8em;padding-inline:.08em}
+.contact-copy{display:block}.contact-link{gap:12px}
+
+.parent-line{display:block;font-family:var(--serif);font-weight:400;line-height:1.3}.parent-line-and{font-style:normal;font-size:.8em;margin-block:.12em}.envelope-letter-couple i,.parents-and{font-family:var(--serif);font-style:normal;font-weight:400}.envelope-letter-couple i{font-size:.62em;line-height:1.15;margin-block:4px}
+
+/* Dark red satin, retaining the ribbon's original highlights and folds. */
+.ribbon-animation{filter:url(#ribbon-crimson) drop-shadow(0 4px 4px #400a1638)}
